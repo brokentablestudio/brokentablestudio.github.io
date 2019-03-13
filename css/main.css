@@ -1,0 +1,92 @@
+﻿
+body, html {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3e69dc;
+}
+
+.container {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+#top_banner {
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+#logo {
+    width: 38vw;
+    float: left;
+}
+
+#logo_subtitle {
+    font-family: Montserrat, sans-serif;
+    color:#6d6d6d;
+    float:left;
+    margin-left:1%;
+    margin-top:2%;
+    font-size:5.8vw;
+}
+
+.text_banner {
+    width: 100%;
+    font-size: 1.7vw;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upper_container {
+    background-color:#f2f2f2;
+    border-radius: 40px 40px 0 0;
+    height: 15vw;
+    overflow: hidden;
+}
+
+.lower_container {
+    background-color: #f2f2f2;
+    border-radius: 0 0 40px 40px;
+    height: 15vw;
+    overflow: hidden;
+}
+
+.image_banner {
+    background-image: url("../website_banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 23vw;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    overflow: hidden;
+}
+
+.image_banner_title {
+    margin-top: 7%;
+    font-size: 8vw;
+    color: white;
+}
+
+.image_banner:hover {
+    opacity:0.8;
+}
+
+#image_banner_2 {
+    background-image: url("../website_banner_2.png");
+}
+
+#bottom_panel {
+    margin-top: 2%;
+    height: 12vw;
+}
+
+i.fab {
+    margin:1%;
+}
