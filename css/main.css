@@ -90,22 +90,30 @@ a {
     background-size: cover;
     height: 23vw;
     text-align: center;
-    font-family: Montserrat, sans-serif;
     overflow: hidden;
 }
 
 .image_banner_title {
+    font-family: Montserrat, sans-serif;
     margin-top: 7%;
     font-size: 8vw;
     color: white;
 }
 
+    .image_banner_title.black {
+        color: black;
+    }
+
 .image_banner:hover {
     opacity:0.8;
 }
 
-#image_banner_2 {
+.image_banner_2 {
     background-image: url("../website_banner_2.png");
+}
+
+.image_banner_3 {
+    background-image: url("../website_banner_3.png");
 }
 
 #bottom_panel {
