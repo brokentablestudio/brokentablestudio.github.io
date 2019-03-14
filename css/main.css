@@ -4,14 +4,39 @@ body, html {
 }
 
 a {
-    text-decoration: none;
-    color: #3e69dc;
+    text-decoration: none;    
 }
+
+    a.purple {
+        color: #3e69dc;
+    }
+
+    a.grey {
+        color: #6d6d6d;
+        text-decoration:underline;
+    }
 
 .container {
     font-family: Montserrat, sans-serif;
     text-align: center;
 }
+
+#navbar_container {
+    font-family: Montserrat, sans-serif;
+    font-size: 2.8vw;
+    transform:translateY(-20%);
+    width:60%;
+    overflow:hidden;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+    .navbar li {
+        float: left;
+        padding: 0 10% 0 0;
+    }
 
 #top_banner {
     overflow: hidden;
@@ -28,8 +53,9 @@ a {
     color:#6d6d6d;
     float:left;
     margin-left:1%;
-    margin-top:2%;
+    margin-top:1%;
     font-size:5.8vw;
+    overflow:hidden;
 }
 
 .text_banner {
@@ -87,6 +113,6 @@ a {
     height: 12vw;
 }
 
-i.fab {
+.fab {
     margin:1%;
 }
